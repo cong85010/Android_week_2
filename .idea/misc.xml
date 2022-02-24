@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/drawable-v24/border_blue.xml" value="0.18072916666666666" />
         <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/drawable/bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/drawable/bg_blue.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/drawable/bg_radial.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/drawable/border-radius.xml" value="0.18072916666666666" />
         <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/drawable/border.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/drawable/border_radius.xml" value="0.18072916666666666" />
         <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/layout/activity_password.xml" value="0.2183828610919143" />
         <entry key="..\:/Users/cong8/AndroidStudioProjects/Login/app/src/main/res/layout/activity_review.xml" value="0.264" />
       </map>
     </option>
