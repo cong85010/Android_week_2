@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFEB3B"
+    tools:context=".Review">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="64dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usb" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="287dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="USB Bluetooth Music Receiver HJX-001- Biến loa thường thành loa bluetooth"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="286dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="44dp"
+        android:text="Cực kỳ hài lòng"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="243dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="#FFEB3B"
+        android:progressBackgroundTintMode="multiply"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="211dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Thêm hình ảnh"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="49dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@+id/ratingBar"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        app:srcCompat="@drawable/camera" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="289dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Hãy chi sẻ những điều mà bạn thích về sản phẩm"
+        android:inputType="textMultiLine"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#255EEC"
+        android:text="Gửi"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextMultiLine"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
